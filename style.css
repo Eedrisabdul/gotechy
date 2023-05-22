@@ -1,0 +1,1070 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.colour{
+    color: #0056d2;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    padding: .2em 1em 0 1em;
+
+    
+}
+
+.header h3{
+    color:  #0056d2;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-decoration: none;
+    gap: 2em;
+    
+
+}
+
+.header  a{
+    color: black;
+    font-weight: 550;
+    font-size: 1em ;
+    text-decoration:none;
+
+}
+
+.header a:hover{
+    color:white;
+    background-color: #0056d2;
+    transition: 5s;
+    padding: .1em .1em;
+
+}
+
+
+.header button{
+    background-color: #0056d2;
+    padding: .5rem .9rem;
+    border: none;
+    font-size: .9em;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.front-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    height: 80vh;
+}
+
+.front-page h1{
+    font-size: 4rem;
+    line-height: 6rem;
+    margin: 0;
+    
+}
+
+.front-page p{
+    font-size:1.5rem ;
+    margin:3rem 0 2rem 0;
+    line-height: 2rem;
+}
+
+.btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.btn-start{
+    border-radius: 8px;
+    padding: .9rem 4.2rem;
+    background-color: #0056d2;
+    color:white;
+    font-size: 1.3rem;
+    margin:0;
+    border: none;
+
+}
+
+.btn-course{
+    border-radius: 8px;
+    padding: .9rem 4.2rem;
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+    color: #0056d2;
+
+}
+
+.front-page img{
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.story{
+    height:50vh;
+    padding: 3rem 2em 0 2em;
+    background-color: rgb(245, 241, 241);
+    
+}
+
+.story h3{
+    color: #0056d2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    margin: 0;
+}
+
+hr{
+    margin:0;
+    height: 4px;
+    width: 50px;
+    background: orange;
+    border-radius: 10px;
+    border: none;
+}
+
+.story .Story-page{
+    margin: 1rem 0 2rem 0;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: 550;
+    line-height: 1.7rem;
+    color: rgb(109, 104, 104);
+    
+}
+
+.story div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:2rem 0 0 0 ;
+    line-height: 3rem;
+    gap: 1rem;
+    width: 70%;
+}
+
+.story div h5{
+    color: #0056d2;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.story p{
+    color: black;
+    width: 100%;
+    font-size: .9rem;
+    align-items: center;
+    border-left: 1px black;
+    font-weight: lighter;
+    line-height: 1.5rem;
+    margin: 0;
+    
+}
+
+.founder-intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    
+}
+
+.founder-intro h3{
+    color: #0056d2;
+    margin: 0;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.founder-intro .intro{
+    margin: 2.5rem 0 3rem 0;
+    font-size: 1rem;
+    color: darkslategrey;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+
+ .second-intro{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 550;
+    margin: 5rem 0rem;
+    color: darkgray;
+}
+
+.founder-img{
+    margin-top: 1rem;
+}
+
+.founder-img img{
+    margin: 3rem 1rem .5rem 0;
+    width: 80%;
+    height: 40vh;
+}
+
+.founder-img h5{
+    color:rgb(136, 128, 128);
+    font-size: 1rem;
+    margin: .4rem 0 1rem 0;
+} 
+
+.founder-img h2{
+    font-family: sans-serif;
+    font-size: 2rem;
+    color:black;
+    font-weight: 750;
+    margin: 0;
+}
+
+.courses{
+    padding: 0 2em;
+    background-color: rgb(250, 249, 249);
+}
+
+.courses h3{
+    color: #0056d2;
+    font-family: sans-serif;
+    margin: 3rem 0 .5rem 0;
+    font-size: 1.5rem;
+}
+
+.courses p{
+    color: darkgrey;
+    margin: 2.5rem 0 ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 1rem;
+}
+
+.courses .classes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.courses ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 0 0 0;
+    font-weight: 550;
+    font-family: sans-serif;
+    color: rgb(117, 111, 111);
+}
+
+.courses .price{
+    color: #85a2ca;
+}
+
+.courses .frontend button{
+    background-color: rgb(207, 155, 90);
+    padding: .5em 1.3em;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.courses .Javascript button{
+    background-color: #0056d2;
+    padding: .5em 1.3em;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.courses .UI button{
+    background-color: rgb(207, 155, 90);
+    padding: .5em 1.3em;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.reason{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 2em;
+}
+
+.reason h3{
+    color: #0056d2;
+    font-family:sans-serif;
+    font-weight: 550;
+    padding: 0 0 .8em 0;
+    font-size:1.5em ;
+}
+
+.m-page{
+    color: darkgrey;
+    margin: 2.5rem 0 ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 1rem; 
+
+}
+
+.font{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 2em;
+}
+
+.live-font i{
+    font-size: 1.5rem;
+    color: green;
+    background-color: rgb(170, 241, 99);
+    padding: .6em;
+    margin: 0 0 .5em 0;
+} 
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Time-font i{
+    font-size: 1.5rem;
+    color: orange;
+    background-color: bisque;
+    padding: .6em;
+    margin: 0 0 .5em 0;
+}
+
+.honour i{
+    font-size: 1.5rem;
+    color: #0056d2;
+    background-color: rgb(229, 240, 240);
+    padding: .6em;
+    margin: 0 0 .5em 0;
+}
+
+.lifetime i{
+    font-size: 1.5rem;
+    color: hotpink;
+    background-color: rgb(180, 147, 164) ;
+    padding: .6em;
+    margin: 0 0 .5em 0;
+}
+
+.virtual-img{
+    text-align: center;
+    margin-top: 4em;
+
+}
+
+.review{
+    padding: 0 2em;
+    background-color: rgb(250, 249, 249);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-page h3{
+    color: #0056d2;
+    font-family: sans-serif;
+    margin: 0;
+    font-size: 1.5rem;
+    padding-bottom: 1em;
+}
+
+.review-page p{
+    color: darkgrey;
+    margin: 2.5rem 0 ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 1rem; 
+}
+
+.review-page .comment {
+    border-left:10px solid  #0056d2 ;
+    border-radius: 1rem;
+}
+
+.review-page .comment p{
+    font-size: .9em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.review-page .name{
+    color: black;
+    font-size: 1.3em;
+    font-family: sans-serif;
+}
+
+.rate{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.review-page .comment i{
+    color: orange;
+}
+
+.img-section{
+    padding: 4em;
+    float: right;
+    
+}
+
+.img-section img{
+    float: right;
+    margin-bottom: 2.5em;
+}
+
+.img-section button{
+    padding:.9em 3em ;
+    background-color: transparent;
+    border-color: #0056d2;
+    font-size: 1em ;
+    font-family: sans-serif;
+    color: #0056d2;
+    float: right;
+}
+
+.training-time{
+    padding: 3.5em 2em ;
+}
+
+.training-time .delivery{
+    color: #0056d2;
+    font-family: sans-serif;
+    margin: 0;
+    font-size: 1.5rem;
+    padding-bottom: .6em;
+}
+
+.training-time h5{
+    color: darkgrey;
+    margin: 2.5rem 0 ;
+    font-size: .9rem; 
+}
+
+.class-period{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fast-track i{
+    font-size: 1.5rem;
+    color: orange;
+    background-color: bisque;
+    padding: .6em;
+    margin: 0 0 .5em 0; 
+}
+
+.fast-track h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin: .8em 0;
+}
+
+.fast-track ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    
+}
+
+.slow-track i{
+    font-size: 1.5rem;
+    color:#0464eb;
+    background-color: #9bb7df;
+    padding: .6em;
+    margin: 0 0 .5em 0; 
+}
+
+.slow-track h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin: .8em 0;
+}
+
+.slow-track ul li{
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+}
+
+.register{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5em 2em;
+    background-color: rgb(250, 249, 249);
+
+}
+
+.register h3{
+    color: #0056d2;
+    font-family: sans-serif;
+    margin: 0;
+    font-size: 1.5rem;
+    padding-bottom: .8em;
+}
+
+.register p{
+    color: darkgrey;
+    margin: 2rem 0 ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 1rem; 
+}
+
+form input{
+    border: 2px solid black;
+    font-size: 1em;
+    margin: .5em;
+    padding: .8em 1.8em .2em;
+    font-weight: 300;
+    border-radius: 5px;
+    color: rgb(245, 243, 243);
+    margin: 1em 1em .5em 0;
+}
+
+.register button{
+    background-color: #0056d2;
+    padding: .5em 1.3em;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin: 1em 0;
+}
+
+.register img{
+    width: 95%;
+    height: vh;
+    margin:3em 0 .1em ;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding:2em 2em ;
+    background-color: rgb(236, 231, 231);
+}
+
+.footer h3{
+    color: #0056d2;
+    font-family: sans-serif;
+    margin: 0;
+    font-size: 1.5rem;
+    padding-bottom: .8em;
+}
+
+.logo-f p{
+    color: darkgrey;
+    margin: 2rem 0 ;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 1rem;
+
+}
+
+.logo-m{
+    display: flex;
+    justify-content: space-between;
+    gap: 6em;
+    line-height: 2em;
+}
+
+.logo-m p{
+    color: #0056d2;
+    font-size: 1.2em;
+}
+
+.logo-m li {
+    list-style: none;
+}
+
+.logo-m a{
+    text-decoration: none;
+    color: rgb(124, 123, 123);
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    padding: 0 2em ;
+    background-color: rgb(236, 231, 231) ;
+}
+
+.line{
+    background-color: black;
+    width: 100%;
+    height: 1px;
+}
+
+.copyright h6{
+    font-size: 1em;
+    color: darkgray;
+}
+
+.copyright div i{
+    border: 1px solid rgb(196, 191, 191);
+    border-radius: 5em;
+    margin: 0 .2em;
+    padding: .5em;
+    color: rgb(201, 194, 194);
+}
+.front-text{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; align-items: start;
+}
+.front-img{
+
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+     position: relative;
+}
+
+.front-img img{
+    position: absolute !important;
+    bottom: 0;
+    width: 100%;
+}
+@media (max-width:990px) {
+
+    .header{
+        height: auto;
+        padding: 2em 1em;
+    }
+    .front-page{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em 2em;
+        height: auto;
+    }
+    
+    .front-page h1{
+        font-size: 2.5rem;
+        line-height: 3.78rem;
+        margin: 0;
+        
+    }
+    
+    .front-page p{
+        font-size:1.3rem ;
+        margin:1rem 0 2rem 0;
+        line-height: 2rem;
+    }
+    
+    .btn{
+        display: flex;
+        gap: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    
+    .btn-start{
+        border-radius: 8px;
+        padding: 1em 3em !important;
+        background-color: #0056d2;
+        color:white;
+        font-size: 1rem;
+        margin:0;
+        border: none;
+    
+    }
+    
+    .btn-course{
+        border-radius: 8px;
+        padding: 1em 3em !important;
+        color: white;
+        font-size: 1rem;
+        border: none;
+        color: #0056d2;
+    
+    }
+    
+    .front-text{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         align-items: start;
+    }
+
+
+    .front-img{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         align-items: end;
+         position: relative;
+    }
+
+    .front-img img{
+        position: relative !important;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .story{
+        height:80vh;
+        padding: .5rem 2em 0 2em;
+        background-color: rgb(245, 241, 241);
+        
+    }
+    
+    .story h3{
+        color: #0056d2;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1rem;
+        margin: 0;
+    }
+    
+    hr{
+        margin:0;
+        height: 4px;
+        width: 50px;
+        background: orange;
+        border-radius: 10px;
+        border: none;
+    }
+    
+    .story .Story-page{
+        margin: 1rem 0 2rem 0;
+        font-family: sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1rem;
+        color: rgb(109, 104, 104);
+    }
+
+    .story .Story-page br{
+          display: none;
+    }
+    
+    .story div{
+        display:block ;
+        justify-content: space-between;
+        align-items: center;
+        margin:2rem 0 0 0 ;
+        line-height: .5rem;
+        gap: 1rem;
+        width: 100%;
+        height: 80vh;
+    }
+    
+    .story div h5{
+        color: #0056d2;
+        font-size: 1em;
+        margin: 0;
+    }
+    
+    .story p{
+        color: black;
+        width: 100%;
+        font-size: .9rem;
+        align-items: center;
+        border-left: 1px black;
+        font-weight: lighter;
+        line-height: 1.2rem;
+        margin: 0;
+        
+    }
+
+    .founder-intro{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2em;
+        
+    }
+    
+    .founder-intro h3{
+        color: #0056d2;
+        margin: 0;
+        font-size: 2rem;
+        font-family: sans-serif;
+    }
+    .founder-intro .intro{
+        margin: 2.5rem 0 3rem 0;
+        font-size: 1rem;
+        color: darkslategrey;
+        font-family: sans-serif;
+        font-weight: 550;
+    }
+    
+     .second-intro{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 550;
+        margin: 5rem 0rem;
+        color: darkgray;
+    }
+    
+    .founder-img{
+        margin-top: 1rem;
+    }
+    
+    .founder-img img{
+        margin: 3rem 1rem .5rem 0;
+        width: 80%;
+        height: 40vh;
+    }
+    
+    .founder-img h5{
+        color:rgb(136, 128, 128);
+        font-size: 1rem;
+        margin: .4rem 0 1rem 0;
+    } 
+    
+    .founder-img h2{
+        font-family: sans-serif;
+        font-size: 2rem;
+        color:black;
+        font-weight: 750;
+        margin: 0;
+    }
+}
+
+
+@media (max-width: 800px){
+    /* body{
+        width: 100%;
+        overflow: hidden;
+    } */
+    .header{
+        width: 100%;
+        padding: 0;
+        height: auto;
+        padding: 1.5em;
+        position: sticky;
+        top: 0;
+        left: 0;
+
+       
+        z-index: 111;
+        background-color: white;
+    }
+
+    .header ul {
+         padding: .5em 1em;
+         display:none;
+    }
+
+    .front-page{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em 2em;
+        gap: 10px;
+        height: auto;
+    }
+    
+    .front-page h1{
+        font-size: 2rem;
+        line-height: 3rem;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        
+    }
+    
+    .front-page p{
+        font-size:1rem ;
+        margin:1rem 0 2rem 0;
+        text-align: center;
+        line-height: 1.4rem;
+    }
+
+    .front-page p br{
+        display: none;
+    }
+    
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    
+    .btn-start{
+        border-radius: 8px;
+        padding: .5em .4em !important;
+        background-color: #0056d2;
+        color:white;
+        font-size: 1rem;
+        margin:0;
+        border: none;
+    
+    }
+    
+    .btn-course{
+        border-radius: 8px;
+        padding: .5em .4em !important;
+        color: white;
+        font-size: 1rem;
+        border: none;
+        color: #0056d2;
+    
+    }
+    
+    .front-text{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         align-items: start;
+         text-align: center;
+    }
+
+
+    .front-img{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         align-items: end;
+         position: relative;
+    }
+
+    .front-img img{
+        position: relative !important;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .story{
+        height:60vh;
+        padding: .5rem 2em 0 2em;
+        background-color: rgb(245, 241, 241);
+        
+    }
+    
+    .story h3{
+        color: #0056d2;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1rem;
+        margin: 0;
+    }
+    
+    hr{
+        margin:0;
+        height: 4px;
+        width: 50px;
+        background: orange;
+        border-radius: 10px;
+        border: none;
+    }
+    
+    .story .Story-page{
+        margin: 1rem 0 2rem 0;
+        font-family: sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1rem;
+        color: rgb(109, 104, 104);
+        border: #0464eb 2px solid;
+    }
+
+    .story .Story-page br{
+          display: none;
+    }
+    
+    .story div{
+        display:grid ;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-content: center;
+        margin:0 ;
+        line-height: .9rem;
+        gap: 1rem;
+        width: 100%;
+        height: 30vh;
+        border: #0464eb 2px solid;
+        padding: 0;
+        
+    }
+
+    .story div br{
+        display: none;
+    }
+    
+    .story div h5{
+        color: #0056d2;
+        font-size: 1em;
+        margin: 0;
+    }
+    
+    .story p{
+        color: black;
+        width: 100%;
+        font-size: .9rem;
+        align-items: center;
+        border-left: 1px black;
+        font-weight: lighter;
+        line-height: 1.2rem;
+        margin: 0;
+        
+    }
+    
+     .founder-intro{
+        display: block;
+    }
+    
+    .founder-intro h3{
+        padding-top: .5em;
+    }
+    .founder-intro .intro{
+        margin: 1em 0;
+    }
+    .second-intro{
+        margin: 1em 0;
+    }
+
+    
+
+
+
+}
+
+@media  (max-width:600px) {
+
+    html{
+        font-size: 20px;
+    }
+    
+}
